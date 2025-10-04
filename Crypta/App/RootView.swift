@@ -15,6 +15,12 @@ struct RootView: View {
                     Image("CircleStack")
                     Text("Coins")
                 }
+            
+            Text("In development")
+                .tabItem {
+                    Image("Cog6Tooth")
+                    Text("Settings")
+                }
         }
         .preferredColorScheme(.dark)
         .tint(.pink)
